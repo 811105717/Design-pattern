@@ -2,43 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0610ffc8-232d-4373-9007-33803543b300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/AMDFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/BrandFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/IntelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/cpu/AMDCPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/cpu/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/cpu/IntelCPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/mainboard/AMDMainBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/mainboard/IntelMainBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/mainboard/MainBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/test/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/car/BenzCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/car/BmwCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/car/MaybachCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/car/MiNiCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/factory/BenzFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/factory/BmwFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/test/FactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/factory/SimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/food/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/food/Noodles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/food/Rice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/test/SimpleFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/src/main/java/hunger/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/src/main/java/innerclass/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/src/main/java/lazy/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaobai/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaobai/test/TestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/factory/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/factory/target/" />
+    <ignored path="$PROJECT_DIR$/singleton/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -46,39 +43,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/Computer.java">
+        <entry file="file://$PROJECT_DIR$/singleton/src/main/java/hunger/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+            <state relative-caret-position="88">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/test/AbstractFactoryTest.java">
+        <entry file="file://$PROJECT_DIR$/singleton/src/main/java/lazy/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/singleton/src/main/java/innerclass/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/singleton/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="242">
+                <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -99,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/factory/Factory.java" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/food/Food.java" />
@@ -114,7 +119,6 @@
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/factory/car/MiNiCar.java" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/factory/Factory.java" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/factory/BenzFactory.java" />
-        <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/factory/BmwFactory.java" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/test/SimpleFactoryTest.java" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/test/FactoryTest.java" />
         <option value="$PROJECT_DIR$/factory/README.MD" />
@@ -131,11 +135,19 @@
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/mainboard/IntelMainBoard.java" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/mainboard/AMDMainBoard.java" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/ComputerFactory.java" />
-        <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/BrandFactory.java" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/IntelFactory.java" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/AMDFactory.java" />
-        <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/test/AbstractFactoryTest.java" />
         <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/Computer.java" />
+        <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/BrandFactory.java" />
+        <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/factory/BmwFactory.java" />
+        <option value="$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/test/AbstractFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xiaobai/test/TestInterface.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xiaobai/test/Test.java" />
+        <option value="$PROJECT_DIR$/singleton/src/main/java/hunger/Singleton.java" />
+        <option value="$PROJECT_DIR$/singleton/src/main/java/lazy/Singleton.java" />
+        <option value="$PROJECT_DIR$/singleton/src/main/java/innerclass/Singleton.java" />
+        <option value="$PROJECT_DIR$/singleton/README.MD" />
       </list>
     </option>
   </component>
@@ -146,9 +158,15 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-26" />
-    <option name="y" value="122" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -158,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,63 +186,43 @@
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaobai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaobai" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaobai" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="innerclass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -233,13 +230,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringCloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -253,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiaobai.abstractfactory.test.AbstractFactoryTest" />
       <module name="factory" />
@@ -293,8 +290,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiaobai.test.Test" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaobai.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.AbstractFactoryTest" />
         <item itemvalue="Application.FactoryTest" />
         <item itemvalue="Application.SimpleFactoryTest" />
@@ -313,7 +324,16 @@
       <updated>1559219316057</updated>
       <workItem from="1559219318985" duration="1914000" />
       <workItem from="1559449796235" duration="280000" />
-      <workItem from="1559471127198" duration="5223000" />
+      <workItem from="1559471127198" duration="5837000" />
+      <workItem from="1559478821606" duration="627000" />
+      <workItem from="1559571998538" duration="60000" />
+      <workItem from="1559572802557" duration="21000" />
+      <workItem from="1559627516719" duration="347000" />
+      <workItem from="1559736430213" duration="2731000" />
+      <workItem from="1559798244427" duration="3965000" />
+      <workItem from="1559804128253" duration="7194000" />
+      <workItem from="1560057510707" duration="2106000" />
+      <workItem from="1560082717871" duration="2287000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1559219547562</created>
@@ -350,40 +370,47 @@
       <option name="project" value="LOCAL" />
       <updated>1559450050203</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2019/6/02 19:54  更新工厂模式 （简单工厂、工厂、抽象工厂）">
+      <created>1559476508660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559476508660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7417000" />
+    <option name="totallyTimeSpent" value="27369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.1391258" />
+      <window_info id="Structure" order="1" sideWeight="0.5055679" side_tool="true" visible="true" weight="0.1391258" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32962137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962137" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.12579957" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
@@ -393,21 +420,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
     <MESSAGE value="2019/5/30 21:00  添加README" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/5/30 21:00  添加README" />
+    <MESSAGE value="2019/6/02 19:54  更新工厂模式 （简单工厂、工厂、抽象工厂）" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/6/02 19:54  更新工厂模式 （简单工厂、工厂、抽象工厂）" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/factory/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -416,13 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/factory/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/factory/Factory.java" />
     <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/simplefactory/food/Rice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -530,16 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/factory/BmwFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/test/FactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -618,16 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/BrandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/IntelFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -666,25 +658,242 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/test/AbstractFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="880">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/Computer.java">
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/computerfactory/BrandFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+        <state relative-caret-position="418">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/factory/factory/BmwFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/src/main/java/com/xiaobai/abstractfactory/test/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10208">
+          <caret line="502" column="25" selection-start-line="502" selection-start-column="25" selection-end-line="502" selection-end-column="25" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="254" column="19" selection-start-line="254" selection-start-column="19" selection-end-line="254" selection-end-column="19" />
+          <folding>
+            <element signature="e#9664#9665#0" expanded="true" />
+            <element signature="e#9710#9711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="105" column="25" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="25" />
+          <folding>
+            <element signature="e#3740#3741#0" expanded="true" />
+            <element signature="e#3777#3778#0" expanded="true" />
+            <element signature="e#6484#6485#0" expanded="true" />
+            <element signature="e#6530#6531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaobai/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5016">
+          <caret line="254" column="50" selection-start-line="254" selection-start-column="50" selection-end-line="254" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18854">
+          <caret line="905" column="23" selection-start-line="905" selection-start-column="23" selection-end-line="905" selection-end-column="23" />
+          <folding>
+            <element signature="e#24331#24332#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6490">
+          <caret line="326" column="31" selection-start-line="326" selection-start-column="31" selection-end-line="326" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7172">
+          <caret line="368" column="37" selection-start-line="368" selection-start-column="37" selection-end-line="368" selection-end-column="37" />
+          <folding>
+            <element signature="e#5550#5551#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#5774#5775#0" expanded="true" />
+            <element signature="e#5798#5799#0" expanded="true" />
+            <element signature="e#7222#7223#0" expanded="true" />
+            <element signature="e#7296#7297#0" expanded="true" />
+            <element signature="e#12107#12108#0" expanded="true" />
+            <element signature="e#12147#12148#0" expanded="true" />
+            <element signature="e#13546#13547#0" expanded="true" />
+            <element signature="e#13587#13588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaobai/test/TestInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2596">
+          <caret line="143" column="42" selection-start-line="143" selection-start-column="42" selection-end-line="143" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/ProgramApplication/java/jdk1.8/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="2346" column="9" selection-start-line="2346" selection-start-column="9" selection-end-line="2346" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/main/java/hunger/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/main/java/innerclass/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/main/java/lazy/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="242">
+            <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -738,7 +947,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>factory</last-edited>
+          <last-edited>DesignPattern</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
