@@ -7,5 +7,6 @@
     
 ## 当前已经更新的模式
    [1.工厂模式](https://github.com/811105717/Design-Pattern/tree/master/factory)
+
    [2.单例模式](https://github.com/811105717/Design-Pattern/tree/master/singleton)
     
