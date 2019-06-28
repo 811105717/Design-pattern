@@ -6,5 +6,5 @@
    行检查。
    
    
-   代码中有详细的注释 请看：[建造者模式]()
+   代码中有详细的注释 请看：[建造者模式](https://github.com/811105717/Design-Pattern/blob/master/builder/src/main/java/builder/Builder.java)
     

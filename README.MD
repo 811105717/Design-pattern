@@ -10,3 +10,4 @@
 
    [2.单例模式](https://github.com/811105717/Design-Pattern/tree/master/singleton)
     
+   [3.建造者模式](https://github.com/811105717/Design-Pattern/tree/master/builder)
